@@ -18,6 +18,8 @@ import { RecettesCalculatorPageComponent } from './pages/mes-recettes/mes-recett
 import { RecipeCalculatorComponent } from './pages/recipe-calculator/recipe-calculator.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +34,7 @@ import { RecipeCalculatorComponent } from './pages/recipe-calculator/recipe-calc
     ModalIngredientPickerComponent,
     RecettesCalculatorPageComponent,
     RecipeCalculatorComponent,
+
     
     
 

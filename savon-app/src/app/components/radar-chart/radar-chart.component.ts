@@ -1,5 +1,6 @@
 import { Component, AfterViewInit, Input, ViewChild, ElementRef } from '@angular/core';
 import { Chart, RadarController, RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend, ChartConfiguration } from 'chart.js';
+  import { from } from 'rxjs';
 
 
 // 👇 Très important : ce bloc doit être exécuté avant toute création de chart :

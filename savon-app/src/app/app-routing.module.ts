@@ -7,6 +7,7 @@ import { IngredientsComponent } from './pages/ingredients/ingredients.component'
 import { UtilisateurComponent } from './pages/utilisateur/utilisateur.component';
 import { IngredientCreateComponent } from './pages/ingredient-create/ingredient-create.component';
 import { RecipeCalculatorComponent } from './pages/recipe-calculator/recipe-calculator.component';
+import { RecettesCalculatorPageComponent } from './pages/mes-recettes/mes-recettes.component';
 
 
 const routes: Routes = [
@@ -15,8 +16,9 @@ const routes: Routes = [
   { path: 'ingredients', component: IngredientsComponent },
   { path: 'utilisateur', component: UtilisateurComponent },
   { path: 'ingredient-create', component: IngredientCreateComponent },
-  { path: 'calcul', component:RecipeCalculatorComponent}
-  
+  { path: 'calcul', component: RecipeCalculatorComponent },
+  { path: 'mes-recettes', component: RecettesCalculatorPageComponent }
+
 
 
 ];
