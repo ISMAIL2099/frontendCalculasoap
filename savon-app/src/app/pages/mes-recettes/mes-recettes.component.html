@@ -16,6 +16,17 @@
         Aucune recette enregistrée.
     </div>
 
+    <div class="container mt-4">
+        <button class="btn btn-danger btn-sm" (click)="deleteAll()" *ngIf="recettes.length > 0">Supprimer tous</button>
+    </div>
+
+    <div class="container mt-4">
+        <h2>INS moyen</h2>
+        <p>{{INSmoyen}}</p>
+    </div>
+
+
+
 
     <!-- Affichage des cards des recettes  -->
     <div class="container">

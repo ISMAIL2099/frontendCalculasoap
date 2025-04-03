@@ -62,7 +62,8 @@ export class RecetteService {
     /**
      * Met à jour une recette existante par son ID.
      * @param id - L'identifiant de la recette.
-     * @param recette - L'objet Recette mis à jour.
+     * @param recette - L'objet Recette mis à jour.NS moyen</h2>
+
      * @returns Un Observable contenant la recette mise à jour.
      */
     updateRecetteDTO(id: number, recette: RecetteDTO): Observable<Recette> {
@@ -77,4 +78,9 @@ export class RecetteService {
     deleteRecette(id: number): Observable<void> {
       return this.http.delete<void>(`${this.apiUrl}/${id}`);
     }
+
+    deleteAllRecettes(): Observable<void> {
+      return this.http.delete<void>(`${this.apiUrl}/all`);
+    }
+  
   }
